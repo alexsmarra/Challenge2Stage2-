@@ -1,0 +1,166 @@
+:root {
+   --green-pattern: #89C5CC;
+   --green-button: #69B99D; 
+   --black-nav: #1F1534;
+   --black-paragraph: #7D7987; 
+}
+
+* {
+   margin: 0;
+}
+
+html {
+   font-size: 70%;
+}
+
+body {
+   font-size: 1.6rem;
+   min-height: 100vh;
+   background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.22%, rgba(227, 255, 248, 0.38) 100.14%);
+}
+
+.page {
+   margin: 0 auto;
+   width: 100rem;
+}
+
+nav { 
+   padding-top: 6rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav img {
+   width: 10.3rem;
+   height: 2.2rem;
+   transition: .3s;
+   cursor: pointer;
+}
+
+nav ul {
+   width: 26.7rem;
+   display: flex;
+   gap: 4.8rem; 
+   padding: 0;
+   justify-content: flex-end;
+}
+
+nav li {
+   list-style: none;
+}
+
+nav a {
+   font-family: 'Mulish', sans-serif;
+   font-weight: 400;
+   color: var(--black-nav);
+   opacity: 0.5;
+   text-decoration: none;
+   font-size: 1.8rem;
+   transition: .3s;
+}
+
+nav li a:hover {
+   opacity: 1;
+}
+
+main {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 8rem auto 8rem;
+   width: 100.5rem;
+   height: 43.3rem;
+}
+
+main section {
+   width: 41.9rem;
+}
+
+main section h1 {
+   margin-bottom: 4rem;
+   font-size: 4.9rem;
+   line-height: 5.6rem;
+   font-family: 'Mulish', sans-serif;
+   font-weight: 400;
+}
+
+main section h1 span {
+   color: var(--green-pattern);
+}
+
+main section p {
+   font-family: 'Open sans', sans-serif;
+   font-weight: 400;
+   color: var(--black-paragraph);
+   margin-bottom: 4rem;
+   font-size: 1.4rem;
+   line-height: 2.8rem;
+}
+
+main section p span {
+   font-family: 'Open sans', sans-serif;
+   font-weight: 700;
+   color: var(--black-paragraph);
+}
+
+main section button {
+   background-color: var(--green-button);
+   color: #FFF;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 1.6rem;
+   font-weight: 500;
+   border: none;
+   width: 17.9rem;
+   height: 5.3rem;
+   border-radius: .4rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   cursor: pointer;
+   transition: .3s;
+}
+
+main section button:hover {
+   background-color: var(--green-pattern);
+}
+
+main section button img {
+   width: 1.9rem;
+   height: 2rem;
+}
+
+
+main #mainImage {
+   width: 41.7rem;
+}
+
+footer {
+   height: 10.7rem;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   color: #000;
+   margin: 14.2rem auto 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer a {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   color: #000;
+   text-decoration: none;
+   transition: .3s;
+}
+
+footer a:hover {
+   color: #444;
+}
+
+#balls {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+}
